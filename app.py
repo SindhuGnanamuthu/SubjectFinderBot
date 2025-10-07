@@ -7,88 +7,76 @@ DEPT_NAME = "Computer Engineering"
 
 # ===== SUBJECT MAPPINGS =====
 schemes = {
-
     # ---- OLD SCHEME (Z/M) ----
     "Old Scheme": {
         "1": {
-            "1": {"SNAME": "COMMUNICATIVE ENGLISH - I", "NSNAME": "COMMUNICATIVE ENGLISH - I", "TYPE": "Practical"},
-            "2": {"SNAME": "ENGINEERING MATHEMATICS - I", "NSNAME": "BASIC MATHEMATICS", "TYPE": "Theory"},
-            "3": {"SNAME": "ENGINEERING PHYSICS - I", "NSNAME": "BASIC PHYSICS", "TYPE": "Theory"},
-            "4": {"SNAME": "ENGINEERING CHEMISTRY - I", "NSNAME": "BASIC CHEMISTRY", "TYPE": "Theory"},
-            "5": {"SNAME": "ENGINEERING GRAPHICS - I", "NSNAME": "DRAFTING PRACTICES", "TYPE": "Practical"}
+            "1": {"SNAME": "COMMUNICATIVE ENGLISH - I", "NSNAME": "COMMUNICATIVE ENGLISH - I", "NSCODE": "EN231350", "TYPE": "Practical"},
+            "2": {"SNAME": "ENGINEERING MATHEMATICS - I", "NSNAME": "BASIC MATHEMATICS", "NSCODE": "MA231120", "TYPE": "Theory"},
+            "3": {"SNAME": "ENGINEERING PHYSICS - I", "NSNAME": "BASIC PHYSICS", "NSCODE": "PH231330", "TYPE": "Theory"},
+            "4": {"SNAME": "ENGINEERING CHEMISTRY - I", "NSNAME": "BASIC CHEMISTRY", "NSCODE": "CH231340", "TYPE": "Theory"},
+            "5": {"SNAME": "ENGINEERING GRAPHICS - I", "NSNAME": "DRAFTING PRACTICES", "NSCODE": "DP232270", "TYPE": "Practical"}
         },
         "2": {
-            "1": {"SNAME": "COMMUNICATIVE ENGLISH - II", "NSNAME": "COMMUNICATIVE ENGLISH II", "TYPE": "Practical"},
-            "2": {"SNAME": "ENGINEERING MATHEMATICS - II", "NSNAME": "APPLIED MATHEMATICS II (CIRCUIT)", "TYPE": "Practical"},
-            "3": {"SNAME": "ENGINEERING PHYSICS - II", "NSNAME": "APPLIED PHYSICS II (CIRCUIT)", "TYPE": "Practical"},
-            "4": {"SNAME": "ENGINEERING CHEMISTRY - II", "NSNAME": "APPLIED CHEMISTRY II (CIRCUIT)", "TYPE": "Practical"},
-            "5": {"SNAME": "ENGINEERING GRAPHICS - II", "NSNAME": "DRAFTING PRACTICES", "TYPE": "Practical"}
+            "1": {"SNAME": "COMMUNICATIVE ENGLISH - II", "NSNAME": "COMMUNICATIVE ENGLISH II", "NSCODE": "EN232480", "TYPE": "Practical"},
+            "2": {"SNAME": "ENGINEERING MATHEMATICS - II", "NSNAME": "APPLIED MATHEMATICS II (CIRCUIT)", "NSCODE": "MA232432", "TYPE": "Practical"},
+            "3": {"SNAME": "ENGINEERING PHYSICS - II", "NSNAME": "APPLIED PHYSICS II (CIRCUIT)", "NSCODE": "PH232442", "TYPE": "Practical"},
+            "4": {"SNAME": "ENGINEERING CHEMISTRY - II", "NSNAME": "APPLIED CHEMISTRY II (CIRCUIT)", "NSCODE": "CH232452", "TYPE": "Practical"},
+            "5": {"SNAME": "ENGINEERING GRAPHICS - II", "NSNAME": "DRAFTING PRACTICES", "NSCODE": "DP232270", "TYPE": "Practical"}
         },
         "3": {
-            "1": {"SNAME": "BASICS OF ELECTRICAL AND ELECTRONICS ENGINEERING", "NSNAME": "DIGITAL LOGIC DESIGN", "TYPE": "Theory"},
-            "2": {"SNAME": "OPERATING SYSTEMS", "NSNAME": "OPERATING SYSTEMS", "TYPE": "Practical"},
-            "3": {"SNAME": "C PROGRAMMING AND DATA STRUCTURE", "NSNAME": "C PROGRAMMING", "TYPE": "Practical"}
+            "1": {"SNAME": "BASICS OF ELECTRICAL AND ELECTRONICS ENGINEERING", "NSNAME": "DIGITAL LOGIC DESIGN", "NSCODE": "1052233110", "TYPE": "Theory"},
+            "2": {"SNAME": "OPERATING SYSTEMS", "NSNAME": "OPERATING SYSTEMS", "NSCODE": "1052233640", "TYPE": "Practicum"},
+            "3": {"SNAME": "C PROGRAMMING AND DATA STRUCTURE", "NSNAME": "C PROGRAMMING", "NSCODE": "1052233440", "TYPE": "Practicum"}
         },
         "4": {
-            "1": {"SNAME": "COMPUTER ARCHITECTURE", "NSNAME": "COMPUTER ARCHITECTURE", "TYPE": "Theory"},
-            "2": {"SNAME": "WEB DESIGN AND PROGRAMMING", "NSNAME": "WEB DESIGNING", "TYPE": "Practical"},
-            "3": {"SNAME": "OBJECT ORIENTED PROGRAMMING WITH JAVA", "NSNAME": "JAVA PROGRAMMING", "TYPE": "Practical"},
-            "4": {"SNAME": "RDBMS", "NSNAME": "RDBMS", "TYPE": "Practicum"}
+            "1": {"SNAME": "COMPUTER ARCHITECTURE", "NSNAME": "COMPUTER ARCHITECTURE", "NSCODE": "4052410", "TYPE": "Theory"},
+            "2": {"SNAME": "WEB DESIGN AND PROGRAMMING", "NSNAME": "WEB DESIGNING", "NSCODE": "1052233540", "TYPE": "Practicum"},
+            "3": {"SNAME": "OBJECT ORIENTED PROGRAMMING WITH JAVA", "NSNAME": "JAVA PROGRAMMING", "NSCODE": "1052233940", "TYPE": "Practicum"},
+            "4": {"SNAME": "RDBMS", "NSNAME": "RDBMS", "NSCODE": "1052233230", "TYPE": "Practicum"}
         },
         "5": {
-            "1": {"SNAME": "PYTHON PROGRAMMING", "NSNAME": "Python Programming", "TYPE": "Practical"},
-            "2": {"SNAME": "CLOUD COMPUTING AND INTERNET OF THINGS", "NSNAME": "Cloud Computing", "TYPE": "Practicum"},
-            "3": {"SNAME": "COMPONENT BASED TECHNOLOGY", "NSNAME": "Component Based Technologies", "TYPE": "Practical"},
-            "4": {"SNAME": "ARTIFICIAL INTELLIGENCE AND DATA ANALYTICS", "NSNAME": "Artificial Intelligence", "TYPE": "Theory"},
-            "5": {"SNAME": "MOBILE COMPUTING", "NSNAME": "Mobile Computing", "TYPE": "Practical"}
+            "1": {"SNAME": "PYTHON PROGRAMMING", "NSNAME": "Python Programming", "NSCODE": "1052234440", "TYPE": "Practicum"},
+            "2": {"SNAME": "CLOUD COMPUTING AND INTERNET OF THINGS", "NSNAME": "Cloud Computing", "NSCODE": "1052235130", "TYPE": "Practicum"},
+            "3": {"SNAME": "COMPONENT BASED TECHNOLOGY", "NSNAME": "Component Based Technologies", "NSCODE": "1052235543", "TYPE": "Practical"},
+            "4": {"SNAME": "ARTIFICIAL INTELLIGENCE AND DATA ANALYTICS", "NSNAME": "Artificial Intelligence", "NSCODE": "1052235215", "TYPE": "Theory"},
+            "5": {"SNAME": "MOBILE COMPUTING", "NSNAME": "Mobile Computing", "NSCODE": "1052235542", "TYPE": "Practical"}
         },
         "6": {
-            "1": {"SNAME": "COMPUTER HARDWARE AND SERVICING", "NSNAME": "COMPUTER HARDWARE AND SERVICING", "TYPE": "Theory"},
-            "2": {"SNAME": "COMPUTER NETWORKS AND SECURITY", "NSNAME": "COMPUTER NETWORKS AND SECURITY", "TYPE": "Theory"},
-            "3": {"SNAME": "SOFTWARE ENGINEERING", "NSNAME": "SOFTWARE ENGINEERING", "TYPE": "Theory"},
-            "4": {"SNAME": "MULTIMEDIA SYSTEMS", "NSNAME": "MULTIMEDIA SYSTEMS", "TYPE": "Theory"},
-            "5": {"SNAME": "DATA SCIENCE AND BIG DATA", "NSNAME": "DATA SCIENCE AND BIG DATA", "TYPE": "Theory"}
+            "1": {"SNAME": "COMPUTER HARDWARE AND SERVICING", "NSNAME": "COMPUTER HARDWARE AND SERVICING", "NSCODE": "4052610", "TYPE": "Theory"},
+            "2": {"SNAME": "COMPUTER NETWORKS AND SECURITY", "NSNAME": "COMPUTER NETWORKS AND SECURITY", "NSCODE": "4052620", "TYPE": "Theory"},
+            "3": {"SNAME": "SOFTWARE ENGINEERING", "NSNAME": "SOFTWARE ENGINEERING", "NSCODE": "4052631", "TYPE": "Theory"},
+            "4": {"SNAME": "MULTIMEDIA SYSTEMS", "NSNAME": "MULTIMEDIA SYSTEMS", "NSCODE": "4052632", "TYPE": "Theory"},
+            "5": {"SNAME": "DATA SCIENCE AND BIG DATA", "NSNAME": "DATA SCIENCE AND BIG DATA", "NSCODE": "4052633", "TYPE": "Theory"}
         }
     },
 
     # ---- R2023 SCHEME ----
     "R2023": {
         "1": {
-            "1": {"SNAME": "TAMIL MARABU", "NSNAME": "TAMIL MARABU", "TYPE": "Theory"},
-            "2": {"SNAME": "BASIC MATHEMATICS", "NSNAME": "BASIC MATHEMATICS", "TYPE": "Theory"},
-            "3": {"SNAME": "BASIC PHYSICS", "NSNAME": "BASIC PHYSICS", "TYPE": "Theory"},
-            "4": {"SNAME": "BASIC CHEMISTRY", "NSNAME": "BASIC CHEMISTRY", "TYPE": "Theory"}
+            "1": {"SNAME": "TAMIL MARABU", "NSNAME": "TAMIL MARABU", "NSCODE": "TA231110", "TYPE": "Theory"},
+            "2": {"SNAME": "BASIC MATHEMATICS", "NSNAME": "BASIC MATHEMATICS", "NSCODE": "MA231120", "TYPE": "Theory"},
+            "3": {"SNAME": "BASIC PHYSICS", "NSNAME": "BASIC PHYSICS", "NSCODE": "PH231330", "TYPE": "Theory"},
+            "4": {"SNAME": "BASIC CHEMISTRY", "NSNAME": "BASIC CHEMISTRY", "NSCODE": "CH231340", "TYPE": "Theory"}
         },
         "2": {
-            "1": {"SNAME": "TAMILS AND TECHNOLOGY", "NSNAME": "TAMILS AND TECHNOLOGY", "TYPE": "Theory"},
-            "2": {"SNAME": "BASICS OF COMPUTER ENGINEERING", "NSNAME": "BASICS OF COMPUTER ENGINEERING", "TYPE": "Theory"},
-            "3": {"SNAME": "PYTHON PROGRAMMING", "NSNAME": "PYTHON PROGRAMMING", "TYPE": "Practicum"},
-            "4": {"SNAME": "ENGINEERING GRAPHICS", "NSNAME": "ENGINEERING GRAPHICS", "TYPE": "Practicum"}
+            "1": {"SNAME": "TAMILS AND TECHNOLOGY", "NSNAME": "TAMILS AND TECHNOLOGY", "NSCODE": "TA232110", "TYPE": "Theory"},
+            "2": {"SNAME": "BASICS OF COMPUTER ENGINEERING", "NSNAME": "BASICS OF COMPUTER ENGINEERING", "NSCODE": "CS232120", "TYPE": "Theory"}
         },
         "3": {
-            "1": {"SNAME": "DIGITAL LOGIC DESIGN", "NSNAME": "DIGITAL LOGIC DESIGN", "TYPE": "Theory"},
-            "2": {"SNAME": "RDBMS", "NSNAME": "RDBMS", "TYPE": "Practicum"},
-            "3": {"SNAME": "OPERATING SYSTEMS", "NSNAME": "OPERATING SYSTEMS", "TYPE": "Theory"},
-            "4": {"SNAME": "DATA STRUCTURES USING PYTHON", "NSNAME": "DATA STRUCTURES USING PYTHON", "TYPE": "Practicum"}
+            "1": {"SNAME": "DIGITAL LOGIC DESIGN", "NSNAME": "DIGITAL LOGIC DESIGN", "NSCODE": "1052233110", "TYPE": "Theory"},
+            "2": {"SNAME": "RDBMS", "NSNAME": "RDBMS", "NSCODE": "1052233230", "TYPE": "Practicum"}
         },
         "4": {
-            "1": {"SNAME": "COMPUTER NETWORKS AND SECURITY", "NSNAME": "COMPUTER NETWORKS AND SECURITY", "TYPE": "Theory"},
-            "2": {"SNAME": "JAVA PROGRAMMING", "NSNAME": "JAVA PROGRAMMING", "TYPE": "Practicum"},
-            "3": {"SNAME": "WEB TECHNOLOGIES", "NSNAME": "WEB TECHNOLOGIES", "TYPE": "Practicum"},
-            "4": {"SNAME": "DATA VISUALIZATION", "NSNAME": "DATA VISUALIZATION", "TYPE": "Theory"}
+            "1": {"SNAME": "COMPUTER NETWORKS AND SECURITY", "NSNAME": "COMPUTER NETWORKS AND SECURITY", "NSCODE": "1052234110", "TYPE": "Theory"},
+            "2": {"SNAME": "DATA STRUCTURES USING PYTHON", "NSNAME": "DATA STRUCTURES USING PYTHON", "NSCODE": "1052234230", "TYPE": "Practicum"}
         },
         "5": {
-            "1": {"SNAME": "CLOUD COMPUTING", "NSNAME": "CLOUD COMPUTING", "TYPE": "Practicum"},
-            "2": {"SNAME": "MACHINE LEARNING", "NSNAME": "MACHINE LEARNING", "TYPE": "Theory"},
-            "3": {"SNAME": "DATA WAREHOUSING AND DATA MINING", "NSNAME": "DATA WAREHOUSING AND DATA MINING", "TYPE": "Theory"},
-            "4": {"SNAME": "ETHICAL HACKING", "NSNAME": "ETHICAL HACKING", "TYPE": "Theory"},
-            "5": {"SNAME": "AGILE PRODUCT DEVELOPMENT", "NSNAME": "AGILE PRODUCT DEVELOPMENT", "TYPE": "Theory"},
-            "6": {"SNAME": "ARTIFICIAL INTELLIGENCE", "NSNAME": "ARTIFICIAL INTELLIGENCE", "TYPE": "Theory"}
-        },
-        "6": {
-            "1": {"SNAME": "FULL STACK DEVELOPMENT", "NSNAME": "FULL STACK DEVELOPMENT", "TYPE": "Practicum"},
-            "2": {"SNAME": "INTERNET OF THINGS", "NSNAME": "INTERNET OF THINGS", "TYPE": "Practicum"},
-            "3": {"SNAME": "PROJECT WORK", "NSNAME": "PROJECT WORK", "TYPE": "End Exam"}
+            "1": {"SNAME": "Cloud Computing", "NSNAME": "Cloud Computing", "NSCODE": "1052235130", "TYPE": "Practicum"},
+            "2": {"SNAME": "Machine Learning", "NSNAME": "Machine Learning", "NSCODE": "1052235211", "TYPE": "Theory"},
+            "3": {"SNAME": "Data Warehousing and Data Mining", "NSNAME": "Data Warehousing and Data Mining", "NSCODE": "1052235212", "TYPE": "Theory"},
+            "4": {"SNAME": "Ethical Hacking", "NSNAME": "Ethical Hacking", "NSCODE": "1052235213", "TYPE": "Theory"},
+            "5": {"SNAME": "Agile Product Development", "NSNAME": "Agile Product Development", "NSCODE": "1052235214", "TYPE": "Theory"},
+            "6": {"SNAME": "Artificial Intelligence", "NSNAME": "Artificial Intelligence", "NSCODE": "1052235215", "TYPE": "Theory"}
         }
     }
 }
@@ -170,6 +158,7 @@ def get_subject():
               f"<b>Column:</b> {col}<br><br>"
               f"<b>Subject:</b> {subj['SNAME']}<br>"
               f"<b>Equivalent Subject:</b> {subj['NSNAME']}<br>"
+              f"<b>NSCODE:</b> {subj['NSCODE']}<br>"
               f"<b>Exam Type:</b> {subj['TYPE']}")
 
     return render_template_string(HTML_TEMPLATE, result=result, type_class=type_class)
