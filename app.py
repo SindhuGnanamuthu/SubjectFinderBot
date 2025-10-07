@@ -16,11 +16,26 @@ schemes = {
             "4": {"SNAME": "ENGINEERING CHEMISTRY - I", "NSNAME": "BASIC CHEMISTRY", "TYPE": "Theory"},
             "5": {"SNAME": "ENGINEERING GRAPHICS - I", "NSNAME": "DRAFTING PRACTICES", "TYPE": "Practical"}
         },
+        "2": {
+            "1": {"SNAME": "COMMUNICATIVE ENGLISH - II", "NSNAME": "COMMUNICATIVE ENGLISH II", "TYPE": "Theory"},
+            "2": {"SNAME": "ENGINEERING MATHEMATICS - II", "NSNAME": "APPLIED MATHEMATICS II (CIRCUIT)", "TYPE": "Theory"},
+            "3": {"SNAME": "ENGINEERING PHYSICS - II", "NSNAME": "APPLIED PHYSICS II (CIRCUIT)", "TYPE": "Theory"},
+            "4": {"SNAME": "ENGINEERING CHEMISTRY - II", "NSNAME": "APPLIED CHEMISTRY II (CIRCUIT)", "TYPE": "Theory"},
+            "5": {"SNAME": "ENGINEERING GRAPHICS - II", "NSNAME": "DRAFTING PRACTICES", "TYPE": "Practical"}
+        },
+        "3": {
+            "1": {"SNAME": "BASICS OF ELECTRICAL AND ELECTRONICS ENGINEERING", "NSNAME": "DIGITAL LOGIC DESIGN", "TYPE": "Theory"},
+            "2": {"SNAME": "OPERATING SYSTEMS", "NSNAME": "OPERATING SYSTEMS", "TYPE": "Theory"},
+            "3": {"SNAME": "C PROGRAMMING AND DATA STRUCTURE", "NSNAME": "C PROGRAMMING", "TYPE": "Theory"},
+            "4": {"SNAME": "COMPUTER ORGANIZATION", "NSNAME": "COMPUTER ORGANIZATION", "TYPE": "Theory"},
+            "5": {"SNAME": "ENVIRONMENTAL SCIENCE", "NSNAME": "ENVIRONMENTAL SCIENCE", "TYPE": "Theory"}
+        },
         "4": {
             "1": {"SNAME": "COMPUTER ARCHITECTURE", "NSNAME": "COMPUTER ARCHITECTURE", "TYPE": "Theory"},
             "2": {"SNAME": "WEB DESIGN AND PROGRAMMING", "NSNAME": "WEB DESIGNING", "TYPE": "Practical"},
             "3": {"SNAME": "OBJECT ORIENTED PROGRAMMING WITH JAVA", "NSNAME": "JAVA PROGRAMMING", "TYPE": "Theory"},
-            "4": {"SNAME": "RDBMS", "NSNAME": "RDBMS", "TYPE": "Practical"}
+            "4": {"SNAME": "RDBMS", "NSNAME": "RDBMS", "TYPE": "Practical"},
+            "5": {"SNAME": "COMPUTER LAB PRACTICAL", "NSNAME": "LAB PRACTICALS", "TYPE": "Practical"}
         },
         "5": {
             "1": {"SNAME": "PYTHON PROGRAMMING", "NSNAME": "Python Programming", "TYPE": "Theory"},
@@ -28,6 +43,13 @@ schemes = {
             "3": {"SNAME": "COMPONENT BASED TECHNOLOGY", "NSNAME": "Component Based Technologies", "TYPE": "Practical"},
             "4": {"SNAME": "ARTIFICIAL INTELLIGENCE AND DATA ANALYTICS", "NSNAME": "Artificial Intelligence", "TYPE": "Theory"},
             "5": {"SNAME": "MOBILE COMPUTING", "NSNAME": "Mobile Computing", "TYPE": "End Exam"}
+        },
+        "6": {
+            "1": {"SNAME": "COMPUTER HARDWARE AND SERVICING", "NSNAME": "COMPUTER HARDWARE AND SERVICING", "TYPE": "Practical"},
+            "2": {"SNAME": "COMPUTER NETWORKS AND SECURITY", "NSNAME": "COMPUTER NETWORKS AND SECURITY", "TYPE": "Theory"},
+            "3": {"SNAME": "SOFTWARE ENGINEERING", "NSNAME": "SOFTWARE ENGINEERING", "TYPE": "Theory"},
+            "4": {"SNAME": "MULTIMEDIA SYSTEMS", "NSNAME": "MULTIMEDIA SYSTEMS", "TYPE": "Practical"},
+            "5": {"SNAME": "DATA SCIENCE AND BIG DATA", "NSNAME": "DATA SCIENCE AND BIG DATA", "TYPE": "Theory"}
         }
     },
 
@@ -41,15 +63,21 @@ schemes = {
         },
         "2": {
             "1": {"SNAME": "TAMILS AND TECHNOLOGY", "NSNAME": "TAMILS AND TECHNOLOGY", "TYPE": "Theory"},
-            "2": {"SNAME": "BASICS OF COMPUTER ENGINEERING", "NSNAME": "BASICS OF COMPUTER ENGINEERING", "TYPE": "Theory"}
+            "2": {"SNAME": "BASICS OF COMPUTER ENGINEERING", "NSNAME": "BASICS OF COMPUTER ENGINEERING", "TYPE": "Theory"},
+            "3": {"SNAME": "PYTHON PROGRAMMING", "NSNAME": "PYTHON PROGRAMMING", "TYPE": "Practicum"},
+            "4": {"SNAME": "ENGINEERING GRAPHICS", "NSNAME": "ENGINEERING GRAPHICS", "TYPE": "Practicum"}
         },
         "3": {
             "1": {"SNAME": "DIGITAL LOGIC DESIGN", "NSNAME": "DIGITAL LOGIC DESIGN", "TYPE": "Theory"},
-            "2": {"SNAME": "RDBMS", "NSNAME": "RDBMS", "TYPE": "Practicum"}
+            "2": {"SNAME": "RDBMS", "NSNAME": "RDBMS", "TYPE": "Practicum"},
+            "3": {"SNAME": "OPERATING SYSTEMS", "NSNAME": "OPERATING SYSTEMS", "TYPE": "Theory"},
+            "4": {"SNAME": "DATA STRUCTURES USING PYTHON", "NSNAME": "DATA STRUCTURES USING PYTHON", "TYPE": "Practicum"}
         },
         "4": {
             "1": {"SNAME": "COMPUTER NETWORKS AND SECURITY", "NSNAME": "COMPUTER NETWORKS AND SECURITY", "TYPE": "Theory"},
-            "2": {"SNAME": "DATA STRUCTURES USING PYTHON", "NSNAME": "DATA STRUCTURES USING PYTHON", "TYPE": "Practicum"}
+            "2": {"SNAME": "JAVA PROGRAMMING", "NSNAME": "JAVA PROGRAMMING", "TYPE": "Practicum"},
+            "3": {"SNAME": "WEB TECHNOLOGIES", "NSNAME": "WEB TECHNOLOGIES", "TYPE": "Practicum"},
+            "4": {"SNAME": "DATA VISUALIZATION", "NSNAME": "DATA VISUALIZATION", "TYPE": "Theory"}
         },
         "5": {
             "1": {"SNAME": "CLOUD COMPUTING", "NSNAME": "CLOUD COMPUTING", "TYPE": "Practicum"},
@@ -58,6 +86,11 @@ schemes = {
             "4": {"SNAME": "ETHICAL HACKING", "NSNAME": "ETHICAL HACKING", "TYPE": "Theory"},
             "5": {"SNAME": "AGILE PRODUCT DEVELOPMENT", "NSNAME": "AGILE PRODUCT DEVELOPMENT", "TYPE": "Theory"},
             "6": {"SNAME": "ARTIFICIAL INTELLIGENCE", "NSNAME": "ARTIFICIAL INTELLIGENCE", "TYPE": "Theory"}
+        },
+        "6": {
+            "1": {"SNAME": "FULL STACK DEVELOPMENT", "NSNAME": "FULL STACK DEVELOPMENT", "TYPE": "Practicum"},
+            "2": {"SNAME": "INTERNET OF THINGS", "NSNAME": "INTERNET OF THINGS", "TYPE": "Practicum"},
+            "3": {"SNAME": "PROJECT WORK", "NSNAME": "PROJECT WORK", "TYPE": "End Exam"}
         }
     }
 }
@@ -91,9 +124,9 @@ HTML_TEMPLATE = """
             <option value="R2023">R2023</option>
         </select>
         <label><b>Semester:</b></label>
-        <input type="number" name="sem" required placeholder="e.g. 5">
+        <input type="number" name="sem" required min="1" max="6" placeholder="e.g. 4">
         <label><b>Column:</b></label>
-        <input type="number" name="col" required placeholder="e.g. 2">
+        <input type="number" name="col" required min="1" max="6" placeholder="e.g. 2">
         <button type="submit">Find Subject</button>
     </form>
 
@@ -129,7 +162,7 @@ def get_subject():
                   f"<b>Equivalent Subject:</b> {subj['NSNAME']}<br>"
                   f"<b>Exam Type:</b> {subj['TYPE']}")
     else:
-        result = f"⚠️ No subject found for {scheme} — Semester {sem}, Column {col}."
+        result = f"<div class='error'>⚠️ No subject found for {scheme} — Semester {sem}, Column {col}.</div>"
 
     return render_template_string(HTML_TEMPLATE, result=result)
 
